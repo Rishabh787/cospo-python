@@ -3,6 +3,9 @@
 # Arithmetic Operators :  Arithmetic operators are used with numeric values to perform common mathematical operations:
 #   [ Addition(+), Substraction(-), Multiplication(*), Division(/), Module(%), Exponentiation(**), Floor division(//) ]
 
+from re import M
+
+
 x =4
 y =5
 z = x+y
@@ -31,7 +34,12 @@ print ("Substraction of 5 and 3 =", c)
 # Logical Operators :  
 # Logical operators are used to combine conditional statements:
 
-
+m = 7
+n = 8
+o = 9
+print((m<n) and (n>m))
+print(m>n or  n<m)
+print(not m>n)
 
 
 
