@@ -34,3 +34,17 @@ dis = total *10/100
 pay= (total-dis)
 print("Discount for user: ",dis)
 print(f'Total amount is {total} after the discount need to pay only {pay}')
+
+
+#  Write a program to accept marks of 5 subjects and find total marks and percentage assuminng full marks as 100 in each subject.
+
+H = 98
+E = 89
+M = 99
+P = 89
+C = 97
+
+Total = H+E+M+P+C
+print("Total marks out of 500: ", Total)
+percent = Total *100 / 500
+print("Total percentage of ", Total, "out of 500 is: ", percent, "%" )
