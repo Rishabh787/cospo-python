@@ -24,7 +24,13 @@
 #  Write a program to accept electricity unit consuption and calculate total price at the rate 5 rupees unit. Give a discount of 10% of overr all bill? 
 
 
-j = 100
-k = 5
-l = j*k
-print(l%10)
+unit = 100
+amt = 5
+total= unit * amt
+
+print("Amount of bill = ", total)
+
+dis = total *10/100
+pay= (total-dis)
+print("Discount for user: ",dis)
+print(f'Total amount is {total} after the discount need to pay only {pay}')
