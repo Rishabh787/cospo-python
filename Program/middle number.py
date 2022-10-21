@@ -10,7 +10,7 @@
 #     print("zero")
 
 
-#  Write a program to find middlr number between three numbers?
+#  Write a program to find middle number between three numbers?
 
 a = int(input("Enter first number:"))
 b = int(input("Enter second number:"))
