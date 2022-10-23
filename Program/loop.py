@@ -31,3 +31,10 @@ while(i<=n):
     print(i)
     i = i+1
 
+
+
+l = 1
+while l < 6:
+  print(i)
+  l += 1
+
