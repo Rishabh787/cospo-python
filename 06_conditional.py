@@ -68,7 +68,7 @@
     3. Increment/Decrement
 
 
-    Syntax-
+    Syntax -
 
     initialization
     condition
