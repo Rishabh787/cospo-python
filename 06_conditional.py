@@ -68,12 +68,12 @@
     3. Increment/Decrement
 
 
-    Syntax-
+    Syntax -
 
     initialization
     condition
         statement
-        increment/decrement
+        increment/decrement     testing
 '''
 
 # i = int(input("Enter a number: "))
@@ -81,3 +81,4 @@ i = 1
 while (i<= 10):
     print(i)
     i = i+1
+    
